@@ -1,9 +1,10 @@
 print("Menú")
-print("1: Comprar")
-print("2: Catálogo")
-print("3: Agendar Cita")
+print("1: Información de la empresa")
+print("2: Comprar")
+print("3: Catálogo")
+print("4: Agendar Cita")
 x=int(input("Digíte una opción: "))
-if x==1:
+if x==2:
       print("¿Está registrado?")
       print("1: Si")
       print("2: No")
