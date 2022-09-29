@@ -30,5 +30,13 @@ elif x==4:
                   e=str(input("digite direccion"))
                 else z==2:
                   print("Acerquese a nuestros puntos oficiales que mas se acerquen a su necesidad)
-       
-          
+ elif x==5:        
+    print("1 para cancerla cita o 2 para reaccinar cita")
+    n=int(input("Digite opccion"))
+          if n==1
+          n=int(input("Digite numero de reserva"))
+            print("Su cita ha sido cancelada")
+          else n==2:
+             n=int(input("Digite numero de reserva"))
+               h=floar(input("Digite hora nueva"))
+                        ptint("Su cita ha sido reaccinada")
