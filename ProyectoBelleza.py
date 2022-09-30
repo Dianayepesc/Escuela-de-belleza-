@@ -1,10 +1,11 @@
 print("Menú")
-print("2: Comprar")
-print("3: Catálogo")
-print("4: Agendar Cita")
-print("5: Cancelacion de cita")
+print("1: Comprar")
+print("2: Catálogo")
+print("3: Agendar Cita")
+print("4: Servicio a Domicilio")
+print("5: Cancelación de Cita")
 x=int(input("Digíte una opción: "))
-if x==2:
+if x==1:
     print("¿Está registrado?")
     print("1: Si")
     print("2: No")
@@ -12,11 +13,13 @@ if x==2:
     if x==1:
         q=int(input("Digíte su identificación: "))
         print("Gracias por su compra")
-elif x==3:
+elif x==2:
     print("Productos de cuidado personal: shampoo, tratamientos, aseo personal, jabones")
-elif x==4:
-    print("¿Desea agendar una cita con nosotros?")
-    print("Digite 1 para si, 2 para no: ")
+elif x==3:
+    v=float(input("¿A qué hora desearía agendar una cita con nosotros?"))
+    print("Su cita se ha agendado exitósamente")
+elif x==4: 
+    print("Compras a domicilio")
     w=int(input("Digite opcion: "))
     if w==1:
         print("Desea que su compra sea a domicilio 1 para si, 2 para no ")
